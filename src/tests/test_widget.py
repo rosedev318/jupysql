@@ -3,7 +3,6 @@ import pytest
 from sql.widgets import utils
 import js2py
 
-
 @pytest.mark.parametrize(
     "source, function_to_extract, expected",
     [
